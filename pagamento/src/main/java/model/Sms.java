@@ -6,9 +6,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.Entity;
 
-@Entity
+@javax.persistence.Entity
 @Table
 public class Sms {
 	@Id
